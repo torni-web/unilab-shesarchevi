@@ -1,0 +1,196 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@media only screen and (max-width:672px) {
+
+    .footer_menu th, td {
+        padding: 5px 20px;
+    }
+}
+
+
+@media only screen and (max-width:487px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        width: 90%;
+        margin: auto;
+    }
+
+    #menulist {
+        
+        display: none;
+    }
+
+    #burger_menu {
+
+        display: block;
+    }
+
+    #menu {
+
+        width: 10%;
+    }
+
+    #main1 {
+
+        height: 388px;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(000, 000, 000, 0.1)), to(rgba(000, 000, 000, 0.1))), 
+        url(../img/Image.png);
+        background-image: -o-linear-gradient(top, rgba(000, 000, 000, 0.1), rgba(000, 000, 000, 0.1)), 
+        url(../img/Image.png);
+        background-image: linear-gradient(to bottom, rgba(000, 000, 000, 0.1), rgba(000, 000, 000, 0.1)), 
+        url(../img/Image.png);
+    }
+
+    #main_cont {
+
+        width: 80%;
+        height: 80%;
+    }
+
+    #main_cont h4 {
+
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    #main2 {
+
+        height: 470px;
+    } 
+
+    #main2_cont {
+
+        margin: 50px auto;
+
+    }
+    .main2_topic_cont {
+
+        width: 95%;
+        padding-bottom: 40px;
+    }
+
+    .trending_cont {
+
+        width: 100%;
+    }
+    
+    .happening_now1 {
+
+        height: 640px;
+    }
+
+    .happening_now_topic {
+
+        height: 300px;
+    }
+
+    .happening_now_topic_tex h2, p {
+        padding-bottom: 15px;
+        width: 100%;
+    }
+
+
+    .happening_now2{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        padding-top: 80px;
+    }
+    .happening_now2_topic {
+
+        width: 100%;
+    }
+
+    #happening_now2_topic3 {
+
+        display: block;
+    }
+
+/* story */
+
+.story_header_none {
+
+    display: none;
+}
+
+.story_header_mobile {
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    width: 90%;
+    height: 50px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: auto;
+}
+
+.worldnews {
+    padding-top: 0;
+}
+
+.main2_form {
+    margin-left: 10%;
+}
+
+#story_main1 {
+
+    width: 100%;
+}
+
+.cont2_1 {
+    width: 90%;
+}
+
+.cont2_1 h4 {
+    padding-top: 20px;
+}
+
+.column {
+
+    -webkit-column-count: 1;
+
+       -moz-column-count: 1;
+
+            column-count: 1;
+}
+
+.pagination {
+    width: 80%;
+    margin: auto;
+    display: block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .pagination a.active {
+    background-color: #fa6980;
+    color: #202124;
+  }
+
+
+    footer {
+        display: none;
+    }
+}

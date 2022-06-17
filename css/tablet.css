@@ -1,0 +1,167 @@
+@media only screen and (min-width:1500px) {
+
+    #main2 {
+
+        width: 40%;
+    }
+#main2_cont {
+    width: 80%;
+}
+
+.happening_now1 {
+    width: 70%;
+}
+
+}
+
+@media only screen and (min-width:1700px) {
+
+    #cont4 {
+
+        display: block;
+    }
+
+}
+
+
+@media only screen and (max-width: 1330px)  {
+
+    .worldnews {
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    #main1 {
+
+        width: 100%;
+    }
+
+    #main2 {
+
+        width: 100%;
+    }
+
+    #main2_cont {
+
+        width: 85%;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    #story_main1 {
+
+        width: 100%;
+    }
+    
+    .main2_topic_cont {
+
+        width: 50%;
+    }
+
+    .trending_cont {
+
+        width: 48%;
+    
+    }
+
+    .trending_cont img {
+
+        width: 100%;
+
+    }
+
+    .trending_topic{
+        width: 100%;
+        height: 100%;
+    }
+    .trending_topic_text {
+
+        width: 80%;
+    }
+    #cont3 {
+
+        display: none;
+    }
+
+    #cont4 {
+
+        display: none;
+    }
+
+    .happening_now1 {
+
+        width: 100%;
+    }
+
+    .happening_now2 {
+
+        width: 100%;
+        flex-direction: row;
+        padding: 40px 0;
+        height: 1000px;
+    }
+
+    .happening_now2_topic {
+
+        width: 32%;
+        height: 180px;
+
+    }
+
+    .happening_now2_topic img {
+
+        width: 100%;
+       
+    }
+
+
+.footer_content {
+
+    flex-wrap: wrap;
+}
+
+.footer_menu {
+
+    padding-bottom: 40px;
+}
+
+}
+
+@media only screen and (max-width:769px) {
+
+
+    .happening_now2_topic {
+
+        width: 47%;
+        height: 180px;
+
+    }
+
+    #happening_now2_topic3 {
+
+        display: none;
+    
+    }
+.cont2 {
+    flex-direction: column;
+}
+
+#story_main1 {
+
+    width: 100%;
+}
+.column {
+
+    width: 100%;
+    padding-top: 30px;
+
+}
+
+.text {
+
+    width: 100%;
+}
+
+}
